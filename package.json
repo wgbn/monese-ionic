@@ -1,11 +1,11 @@
 {
   "name": "monese-ionic",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Walter Gandarella",
+  "homepage": "https://www.wgbn.com.br",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "npx ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -13,7 +13,9 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/animations": "9.1.13",
     "@angular/common": "~9.1.6",
+    "@angular/compiler": "9.1.13",
     "@angular/core": "~9.1.6",
     "@angular/forms": "~9.1.6",
     "@angular/platform-browser": "~9.1.6",
